@@ -1,8 +1,8 @@
 export function Sound() {
-  const forestSound = new Audio("https://drive.google.com/file/d/1CRHkV72WUMdcqec5GT_KdsqFz0z3VAOA/view");
-  const rainSound = new Audio("https://drive.google.com/file/d/1Ip8xBqAUJ-bty51Wz8JBtX_bWXCgA0P2/view");
-  const cafeteriaSound = new Audio("https://drive.google.com/file/d/1OxLKpCwg2wrxXFNUHgZxJ51QEt0ac5RA/view");
-  const fireplaceSound = new Audio("https://drive.google.com/file/d/1MakaBPxJvTa_whaSM3kEbRcxiVd1GRCB/view");
+  const forestSound = new Audio("./assets/Floresta.wav");
+  const rainSound = new Audio("./assets/Chuva.wav");
+  const cafeteriaSound = new Audio("./assets/Cafeteria.wav");
+  const fireplaceSound = new Audio("./assets/Lareira.wav");
 
   function soundForest() {
     stopSound();
